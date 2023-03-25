@@ -1,3 +1,4 @@
+require("dotenv").config();
 require("./api/model/item");
 require("./api/model/itemType");
 require("./api/model/itemTypeImage");
@@ -356,8 +357,15 @@ io.on("connection", (socket) => {
     console.log(data);
 
     if (data.sender === resources.CHAT.MANAGER_SENDER)
-      io.sockets.emit(resources.CHAT.SOCKET_MESSAGE.RECEIVE_MESSAGE_BY_CUSTOMER, data);
-    else io.sockets.emit(resources.CHAT.SOCKET_MESSAGE.RECEIVE_MESSAGE_BY_MANAGER, data);
+      io.sockets.emit(
+        resources.CHAT.SOCKET_MESSAGE.RECEIVE_MESSAGE_BY_CUSTOMER,
+        data
+      );
+    else
+      io.sockets.emit(
+        resources.CHAT.SOCKET_MESSAGE.RECEIVE_MESSAGE_BY_MANAGER,
+        data
+      );
     // socket.to(data.room).emit("receive_message", data.message);
   });
 

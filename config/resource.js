@@ -15,7 +15,7 @@ const resources = {
     },
   },
   JWT: {
-    SECRET: "urukSysBazarApp",
+    SECRET: "BazarAppBazarAppBazarApp",
   },
   ERRORS: {
     USER_NOT_AUTHORIZED: {
@@ -72,7 +72,7 @@ const resources = {
     },
   },
   FIREBASE_SEVER_KEY:
-    "AAAAaLAQdPc:APA91bEzdwHrZqV0oJlxWbjPHIFs8GdiwQ94UPe_Oy5mTChnSXq0tAhTKrWUNDuam8UC2lhk9GBhWz8SdnAIyOZlUI6uoZ4kbIHO3tZWqZfIT_YAULQUN7OzHIFsKMfW9FoF1UU2csq4",
+    "FIREBASE_SEVER_KEY",
 };
 
 module.exports = resources;
