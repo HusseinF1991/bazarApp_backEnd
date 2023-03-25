@@ -1,7 +1,7 @@
 {
     "host": "localhost",
     "user": "root",
-    "password": "u7FjW!xfDG@4qd",
-    "database": "veniceApp_db",
+    "password": "",
+    "database": "bazarApp_db",
     "dialect": "mysql"
 }
