@@ -1,0 +1,30 @@
+{
+  "name": "venicemarket-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mime-types": "^2.1.34",
+    "multer": "^1.4.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.14",
+    "sequelize": "^6.12.1",
+    "sequelize-paginate": "^1.1.6",
+    "socket.io": "^4.4.1"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.6",
+    "utf-8-validate": "^5.0.8"
+  }
+}
